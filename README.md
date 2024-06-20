@@ -3,6 +3,23 @@
 ###### This file gives information on how to use the implementation files of "Anomaly Detection in Networks Using Machine Learning" 
 [BINARY_BUGS.pdf](https://github.com/user-attachments/files/15917425/BINARY_BUGS.pdf)
 
+![BINARY_BUGS-18](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/d329f146-c00a-4d7a-994f-563561687e4b)
+![BINARY_BUGS-16](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/a929133f-bab3-4a5d-be69-49122aabfd13)
+![BINARY_BUGS-14](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/13347b20-72d9-4f59-8dc0-5770b7a9e7e8)
+![BINARY_BUGS-13](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/d726b8e6-e734-485c-9520-03a0e1f52014)
+![BINARY_BUGS-12](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/4bad1ad7-929a-448e-84da-de23790e1819)
+![BINARY_BUGS-11](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/3ac5b3e8-25c0-4eb4-a3c1-0b322b269d7f)
+![BINARY_BUGS-9](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/90c7d90f-1158-4e25-9b26-8caa6657d13b)
+![BINARY_BUGS-8](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/4f1373f7-2268-47ce-86b2-7295f4e9eb5d)
+![BINARY_BUGS-7](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/2897982a-502f-4f3f-9933-769ab99ca6f5)
+![BINARY_BUGS-6](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/2d51c7f6-d6d7-4bdc-9e2e-a94ad4cee789)
+![BINARY_BUGS-5](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/cc1162c7-64ee-42b6-ab8e-fbe779e1f024)
+![BINARY_BUGS-4](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/5cd81bfb-59ef-457b-b4d6-26e2a907fa86)
+![BINARY_BUGS](https://github.com/Anurag29Nitrr/Anamoly-Detection-Project-Binary-Bugs/assets/120914452/d0b33144-3b9b-463a-acac-4dab579b4117)
+
+
+
+
 Python 3.6 was used to create the application files. Before running the files, it must be ensured that [Python 3.6](https://www.python.org/downloads/) and the following libraries are installed.
 
 | Library | Task |
