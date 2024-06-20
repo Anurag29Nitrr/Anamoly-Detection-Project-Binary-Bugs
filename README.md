@@ -1,7 +1,7 @@
 # Anomaly-Detection-in-Networks-Using-Machine-Learning
-A thesis submitted for the degree of Master of Science in Computer Networks and Security
-###### This file gives information on how to use the implementation files of "Anomaly Detection in Networks Using Machine Learning" ( A thesis submitted for the degree of Master of Science in Computer Networks and Security written by Kahraman Kostas )
 
+###### This file gives information on how to use the implementation files of "Anomaly Detection in Networks Using Machine Learning" 
+[BINARY_BUGS.pdf](https://github.com/user-attachments/files/15917425/BINARY_BUGS.pdf)
 
 Python 3.6 was used to create the application files. Before running the files, it must be ensured that [Python 3.6](https://www.python.org/downloads/) and the following libraries are installed.
 
