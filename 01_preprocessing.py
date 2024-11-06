@@ -25,19 +25,22 @@ import os
 from sklearn import preprocessing
 import time
 seconds = time.time()
-get_ipython().run_line_magic('matplotlib', 'inline')
+import matplotlib.pyplot as plt
+plt.ion()
+
 
 print("This process may take 5 to 10 minutes, depending on the performance of your computer.\n\n\n")
 number="0123456789"
 # CSV files names:
-csv_files=["Monday-WorkingHours.pcap_ISCX",
-        "Tuesday-WorkingHours.pcap_ISCX",
-        "Wednesday-workingHours.pcap_ISCX",
-        "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX",
-        "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX",
-        "Friday-WorkingHours-Morning.pcap_ISCX",
-        "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX",
-        "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX",]
+csv_files=["Monday-WorkingHours.pcap_ISCX"
+        # "Tuesday-WorkingHours.pcap_ISCX",
+        # "Wednesday-workingHours.pcap_ISCX",
+        # "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX",
+        # "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX",
+        # "Friday-WorkingHours-Morning.pcap_ISCX",
+        # "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX",
+        # "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX",
+           ]
 
 # Headers of column
 main_labels=["Flow ID","Source IP","Source Port","Destination IP","Destination Port","Protocol","Timestamp","Flow Duration","Total Fwd Packets",
@@ -59,7 +62,7 @@ flag=True
 for i in range(len(csv_files)):
     ths = open(str(i)+".csv", "w")
     ths.write(main_labels)
-    with open("./CSVs/"+csv_files[i]+".csv", "r") as file:
+    with open("E:/IDS/final/CSVs/" + csv_files[i] + ".csv", "r") as file:
         while True:
             try:
                 line=file.readline()
@@ -99,12 +102,9 @@ for i in range(len(csv_files)):
 
     string_features=[]
     for j in main_labels2: # In this section, non-numeric (string and / or categorical) properties (columns) are detected.
-        if df[j].dtype=="object":
+        if df[j].dtype== "object":
             string_features.append(j)
-    try:
-        string_features.remove('Label')#The "Label" property was removed from the list. Because it has to remain "categorical" for using with different machine learning approach.
-    except:
-        print("error!")
+    
     labelencoder_X = preprocessing.LabelEncoder()
 
 
